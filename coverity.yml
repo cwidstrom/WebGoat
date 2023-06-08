@@ -1,7 +1,6 @@
 capture:
   build:
-    #clean-command: mvn -B clean
-    clean-command: mvn -version
+    clean-command: mvn -B clean
     build-command: mvn -B -DskipTests package   
 
 analyze:
