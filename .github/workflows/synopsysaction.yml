@@ -26,7 +26,7 @@ jobs:
           coverity_project_name: ${{ secrets.COVERITY_PROJECT_NAME }}
           coverity_stream_name: ${{ github.event.repository.name }}
           
-          #Optional- you may specify the ID number of a saved view to apply as a "break the build" policy
+          #Optional- you may specify the ID number of a saved view to apply as a "break the build" policy.
           #coverity_policy_view: 100001
           
           #Optional- To enable feedback from Coverity security testing as pull request comment
