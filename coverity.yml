@@ -5,11 +5,5 @@ capture:
 
 #analyze:
   #aggressiveness-level: high
-  #checkers:
-  #  all: true
-   # audit: true
-    #android-security: true
-    #c-family-security: true
     #webapp-security:
      # aggressiveness-level: high
-  #cov-analyze-args: [ --enable-audit-dataflow ]
